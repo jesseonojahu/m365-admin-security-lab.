@@ -45,10 +45,16 @@ Detailed runbook-style write-ups for each section, with supporting evidence:
 ## Repository Contents
 
 ```
-/docs         Runbook-style documentation for each lab area
-/screenshots  Configuration evidence (Admin Centre, Entra ID, Intune, etc.)
-README.md     This file
+/docs                            Runbook-style documentation for each lab area
+/screenshots/01-tenant-setup      Evidence for tenant, users & groups
+/screenshots/02-entra-mfa-ca      Evidence for Entra ID, MFA & Conditional Access
+/screenshots/03-intune            Evidence for Intune enrolment & compliance
+/screenshots/04-exchange          Evidence for Exchange mailboxes & mail flow rules
+/screenshots/05-sharepoint-teams  Evidence for SharePoint & Teams
+README.md                        This file
 ```
+
+Screenshots are embedded directly inline within each doc, at the step they support — no separate evidence appendix needed.
 
 ## Skills Demonstrated
 

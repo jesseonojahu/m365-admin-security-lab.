@@ -21,14 +21,20 @@ Created five test identities via **Microsoft 365 Admin Centre > Users > Active u
 | Jesse Onojah | JesseOnojah@Diasporapay.onmicrosoft.com |
 | Samuel Kennedy | SamuelKennedy@Diasporapay.onmicrosoft.com |
 
+![Active users list](../screenshots/01-tenant-setup/01-active-users-list.png)
+
 Licence usage confirmed at 5/25 assigned under **Billing > Licenses**.
+
+![Licenses assigned](../screenshots/01-tenant-setup/02-licenses-assigned.png)
 
 **3. Group creation**
 - **IT-Support-Team** — a Security group, used later to scope Conditional Access and permissions.
+
+![Security group created](../screenshots/01-tenant-setup/03-security-group-created.png)
+
 - **Project-Alpha** — a Microsoft 365 group, which automatically provisioned a linked Teams team, SharePoint site, and shared mailbox for collaboration scenarios.
 
-## Evidence
-See the `/screenshots` folder in this repository for supporting evidence images from this section (tenant/enrolment screens, policy configuration, and confirmation dialogs).
+![Microsoft 365 group created](../screenshots/01-tenant-setup/04-m365-group-created.png)
 
 ## Notes
 Choosing Business Premium over the Developer Program sandbox is a realistic constraint many admins hit in practice — documenting the workaround itself demonstrates troubleshooting rather than just following a guided path.
